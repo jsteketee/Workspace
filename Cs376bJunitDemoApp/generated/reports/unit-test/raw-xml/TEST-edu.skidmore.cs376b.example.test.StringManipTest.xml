@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="csr03.cs.skidmore.edu" name="edu.skidmore.cs376b.example.test.StringManipTest" skipped="0" tests="5" time="0.141" timestamp="2016-10-06T15:41:58">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="genRawUnitTestReportsDir" value="generated/reports/unit-test/raw-xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="genDataDir" value="generated/data" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Linux" />
+    <property name="mainJavaSrcDir" value="src/main/java" />
+    <property name="sun.boot.class.path" value="/opt/jdk1.8.0_77/jre/lib/resources.jar:/opt/jdk1.8.0_77/jre/lib/rt.jar:/opt/jdk1.8.0_77/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_77/jre/lib/jsse.jar:/opt/jdk1.8.0_77/jre/lib/jce.jar:/opt/jdk1.8.0_77/jre/lib/charsets.jar:/opt/jdk1.8.0_77/jre/lib/jfr.jar:/opt/jdk1.8.0_77/jre/classes" />
+    <property name="mainConfigSrcDir" value="src/main/config" />
+    <property name="genJavadocDir" value="generated/docs/javadoc" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="genCoberturaDataFileDir" value="generated/data/cobertura" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="net.sourceforge.cobertura.datafile" value="generated/data/cobertura/cobertura.ser" />
+    <property name="ant.home" value="/usr/local/apache-ant-1.9.6" />
+    <property name="genSrcDir" value="generated/src" />
+    <property name="java.runtime.version" value="1.8.0_77-b03" />
+    <property name="genCheckstyleReportsDir" value="generated/reports/checkstyle" />
+    <property name="genDir" value="generated" />
+    <property name="distDir" value="dist" />
+    <property name="user.name" value="jstekete" />
+    <property name="testJavaSrcDir" value="src/test/java" />
+    <property name="javadocPackageNames" value="edu.skidmore.*" />
+    <property name="user.language" value="en" />
+    <property name="mainBuildDir" value="classes" />
+    <property name="sun.boot.library.path" value="/opt/jdk1.8.0_77/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="dist" />
+    <property name="srcDir" value="src" />
+    <property name="ant.project.name" value="JunitDemo" />
+    <property name="java.version" value="1.8.0_77" />
+    <property name="user.timezone" value="" />
+    <property name="mainLibDir" value="lib" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="/opt/jdk1.8.0_77/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="checkstyleConfigFile" value="DsrCheckStyleConfig.xml" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="log4j.debug" value="" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/opt/jdk1.8.0_77/jre" />
+    <property name="genUnitTestReportsDir" value="generated/reports/unit-test" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/build.xml" />
+    <property name="os.version" value="3.10.0-327.36.1.el7.x86_64" />
+    <property name="genInstrumentedClassesDir" value="generated/instrumented-bin" />
+    <property name="envLibDir" value="envlib" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.77-b03" />
+    <property name="coberturaDataFileName" value="cobertura.ser" />
+    <property name="ant.library.dir" value="/usr/local/apache-ant-1.9.6/lib" />
+    <property name="checkstyleJarFile" value="checkstyle-7.1.1-all.jar" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="checkstyleXmlReportFile" value="CheckstyleReport.xml" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="genReportsDir" value="generated/reports" />
+    <property name="testLibDir" value="test-lib" />
+    <property name="user.home" value="/students/home/jstekete" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="testBuildDir" value="test-bin" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.skidmore.cs376b.example.test.StringManipTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/generated/reports/unit-test/raw-xml/TEST-edu.skidmore.cs376b.example.test.StringManipTest.xml crashfile=/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/junitvmwatcher908470063262024744.properties propsfile=/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/junit7712500061727931361.properties" />
+    <property name="java.class.path" value="/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/generated/instrumented-bin/cobertura:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-bin:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/classes:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/envlib/servlet-api.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/asm-5.0.1.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/asm-analysis-5.0.1.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/asm-commons-5.0.1.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/asm-tree-5.0.1.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/asm-util-5.0.1.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/checkstyle-7.1.1-all.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/cobertura-2.1.1.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/commons-lang3-3.3.2.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/hamcrest-core-1.3.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/jaxen-1.1.4.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/jetty-6.1.14.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/jetty-util-6.1.14.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/junit-4.12.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/logback-classic-1.0.13.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/logback-core-1.0.13.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/oro-2.0.8.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/servlet-api-2.5-6.1.14.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/test-lib/slf4j-api-1.7.5.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/lib/log4j-1.2.17.jar:/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp:/usr/local/apache-ant-1.9.6/lib/ant-launcher.jar:/usr/local/apache-ant-1.9.6/lib/ant.jar:/usr/local/apache-ant-1.9.6/lib/ant-junit.jar:/usr/local/apache-ant-1.9.6/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="testConfigSrcDir" value="src/test/config" />
+    <property name="genFormattedUnitTestReportsDir" value="generated/reports/unit-test/formatted" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="genCoberturaInstrumentedClassesDir" value="generated/instrumented-bin/cobertura" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="checkstyleTextReportFile" value="CheckstyleReport.txt" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.file.JunitDemo" value="/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp/build.xml" />
+    <property name="java.ext.dirs" value="/opt/jdk1.8.0_77/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="genCoberturaReportsDir" value="generated/reports/coverage" />
+    <property name="user.dir" value="/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/students/home/jstekete/My_Files/workspace/Cs376bJunitDemoApp" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/local/apache-ant-1.9.6/lib/ant.jar" />
+    <property name="genDocsDir" value="generated/docs" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="genMainJavaSrcDir" value="generated/src/main/java" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="testSrcDir" value="src/test" />
+    <property name="ant.file.type.JunitDemo" value="file" />
+  </properties>
+  <testcase classname="edu.skidmore.cs376b.example.test.StringManipTest" name="ispalyndrome" time="0.002" />
+  <testcase classname="edu.skidmore.cs376b.example.test.StringManipTest" name="everyOtherEven" time="0.0" />
+  <testcase classname="edu.skidmore.cs376b.example.test.StringManipTest" name="middleTestOdd" time="0.0" />
+  <testcase classname="edu.skidmore.cs376b.example.test.StringManipTest" name="reversed" time="0.0" />
+  <testcase classname="edu.skidmore.cs376b.example.test.StringManipTest" name="middleTestEven" time="0.008" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

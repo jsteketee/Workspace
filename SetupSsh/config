@@ -1,0 +1,7 @@
+host cs376b.monead.com
+ HostName cs376b.monead.com
+ IdentityFile ~/.ssh/keys_id_rsa
+ User keys
+host cs376b.monead.com
+ HostName cs376b.monead.com
+ IdentityFile ~/.ssh/cs376b_id_rsa
